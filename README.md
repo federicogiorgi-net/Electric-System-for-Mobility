@@ -35,6 +35,7 @@ The project models traction and braking forces (including regenerative braking),
    cd Electric-Systems-for-Mobility
 2. Open MATLAB and set the repository folder as the Current Folder.
 3. Run the script:
+     ```bash
      run('src/Script_ESM.m')
    
 The script will:
