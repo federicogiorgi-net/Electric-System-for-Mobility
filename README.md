@@ -20,3 +20,35 @@ The project models traction and braking forces (including regenerative braking),
   - Power, current, and energy consumption
   - Resistance components (aerodynamic, grade, curvature)
 - Automatic generation of multiple plots for performance analysis.
+
+## Requirements
+- **MATLAB** R2020a or later (no proprietary toolboxes required).
+- Works on Windows, macOS, or Linux.
+- Optional: **Octave** (partial compatibility).
+
+---
+
+## How to Run
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/<username>/Electric-Systems-for-Mobility.git
+   cd Electric-Systems-for-Mobility
+2. Open MATLAB and set the repository folder as the Current Folder.
+3. Run the script:
+     run('src/Script_ESM.m')
+   
+The script will:
+
+- Simulate the entire route with stops.
+- Compute dynamic and electrical quantities.
+- Generate plots for speed, acceleration, power, energy, and forces.
+
+## References
+- Hitachi Rail & Bombardier ETR1000 technical data.
+- OpenRailwayMap for speed limits and route geometry.
+- Trenitalia official timetables.
+- Full reference list in docs/ESMProject_Report.pdf.
+
+## License
+
+This project is released under the MIT License. See the LICENSE file for details.
